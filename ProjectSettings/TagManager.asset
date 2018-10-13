@@ -9,6 +9,10 @@ TagManager:
   - Mouse
   - FinishButton
   - Text
+  - Text2
+  - colors
+  - time
+  - start
   layers:
   - Default
   - TransparentFX

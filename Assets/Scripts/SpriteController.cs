@@ -9,17 +9,18 @@ public class SpriteController : MonoBehaviour
 	public Sprite[] possibleSprites = new Sprite[5];
 	public Sprite sprite;
 	
-	private GameObject[] finishButton;
+	private GameObject finishButton;
 	private SpriteRenderer sr;
 	
 	private int selectedColors;
-	private int time = 10;
+	private int selectedTime;
 
 	void Start ()
 	{
-		finishButton = GameObject.FindGameObjectsWithTag("FinishButton");
+		finishButton = GameObject.FindGameObjectWithTag("FinishButton");
 		sr = GetComponent<SpriteRenderer>();
-		selectedColors = possibleSprites.Length;
+		selectedColors = PlayerPrefs.GetInt("selectedColors", 2)+1;
+		selectedTime = PlayerPrefs.GetInt("selectedTime", 1)*5;
 		sprite = possibleSprites[Random.Range(1, selectedColors)];
 		sr.sprite = sprite;
 		StartCoroutine(ReplaceSprites());
@@ -27,8 +28,8 @@ public class SpriteController : MonoBehaviour
 	
 	IEnumerator ReplaceSprites()
 	{
-		yield return new WaitForSeconds(time);
+		yield return new WaitForSeconds(selectedTime);
 		sr.sprite = possibleSprites[0];
-		finishButton[0].GetComponent<GameController>().replaceSprites = true;
+		finishButton.GetComponent<GameController>().replaceSprites = true;
 	}
 }
