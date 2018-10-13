@@ -48,7 +48,7 @@ public class ButtonController : MonoBehaviour
 						selectedTime = 1;
 					}
 					PlayerPrefs.SetInt("selectedTime", selectedTime);
-					settingsText.GetComponent<Text>().text = "Memorizing time is now " + selectedTime*5;
+					settingsText.GetComponent<Text>().text = "Memorizing time is now " + selectedTime*5 + " seconds";
 				}
 			}
 		}
