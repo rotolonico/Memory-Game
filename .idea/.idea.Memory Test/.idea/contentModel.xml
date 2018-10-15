@@ -5,6 +5,12 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+<<<<<<< HEAD
+=======
+        <e p="CameraController.cs" t="Include" />
+        <e p="GameController.cs" t="Include" />
+        <e p="Score.cs" t="Include" />
+>>>>>>> 7006f8615b8f2641a865c235774a3f37b7877333
         <e p="Scripts" t="Include">
           <e p="ButtonController.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
