@@ -13,6 +13,10 @@ TagManager:
   - colors
   - time
   - start
+  - themes
+  - shop
+  - exit
+  - resetGame
   layers:
   - Default
   - TransparentFX

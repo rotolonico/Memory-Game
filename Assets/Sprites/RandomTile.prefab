@@ -52,12 +52,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23136a5a011b14e67a8fecbbd60eff4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  possibleSprites:
+  spritePack1:
   - {fileID: 21300000, guid: e963c890a8e5a479c8ab4ce9a2b7c5c7, type: 3}
-  - {fileID: 21300000, guid: 5408e46ba4d014727bbaebe3fbfa4783, type: 3}
-  - {fileID: 21300000, guid: 68f8e9b1d236747078aae6c6ca0bf9b4, type: 3}
   - {fileID: 21300000, guid: 31afb14fdaf4645ccba90b51c2ec34db, type: 3}
+  - {fileID: 21300000, guid: 5408e46ba4d014727bbaebe3fbfa4783, type: 3}
   - {fileID: 21300000, guid: 81569806869f74968a17c783372f1cab, type: 3}
+  - {fileID: 21300000, guid: 68f8e9b1d236747078aae6c6ca0bf9b4, type: 3}
+  spritePack2:
+  - {fileID: 21300000, guid: 02f04071f6d91433e99714c74a53de63, type: 3}
+  - {fileID: 21300000, guid: 9de412e85310b49ffa8a1a02daeaec70, type: 3}
+  - {fileID: 21300000, guid: 7bf4e1b802a0e457aad3e9aa41bf7f6a, type: 3}
+  - {fileID: 21300000, guid: c2b13f9e3d4a2498d90df48a360e58fd, type: 3}
+  - {fileID: 21300000, guid: 043fe1bb2d6174626afd2e5a329c271a, type: 3}
+  spritePack3:
+  - {fileID: 21300000, guid: 02f04071f6d91433e99714c74a53de63, type: 3}
+  - {fileID: 21300000, guid: 76f5cc3ec0f4a4cb7be165f95b86ff15, type: 3}
+  - {fileID: 21300000, guid: 4eda710239f4043bc8b7d55ed485fe2f, type: 3}
+  - {fileID: 21300000, guid: 473c08c3747fb4ef595bc260c923a795, type: 3}
+  - {fileID: 21300000, guid: 9e14487ec4da845bc813882d67020e0f, type: 3}
+  spritePack4:
+  - {fileID: 21300000, guid: 02f04071f6d91433e99714c74a53de63, type: 3}
+  - {fileID: 21300000, guid: 2c8cc037426204052b977f3ee53e2680, type: 3}
+  - {fileID: 21300000, guid: f05bd647fff994975ac9cb01d1e9ef76, type: 3}
+  - {fileID: 21300000, guid: 2050e66eb7b144444bd21d2e40cf4881, type: 3}
+  - {fileID: 21300000, guid: 10dcd35bb4bdf4ff0bb65f21562bc03e, type: 3}
+  sprite: {fileID: 0}
 --- !u!212 &212514884938770604
 SpriteRenderer:
   m_ObjectHideFlags: 1
